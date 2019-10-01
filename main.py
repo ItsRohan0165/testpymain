@@ -337,7 +337,7 @@ async def rps(ctx, choice):
     choices = ["rock", "paper", "scissors"]
     await ctx.send("You chose {} | CPU chose {}".format(choice, random.choice(choices)))
     
-     client.run(os.getenv('TOKEN'))	
+client.run(os.getenv('TOKEN'))	
     
 
 
